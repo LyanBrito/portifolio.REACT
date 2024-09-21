@@ -9,7 +9,7 @@ export default function HeaderPage() {
   return (
     <div className={styles.headerContainer}>
       <div className={styles.headerTitle}>
-        <img src={Logo} alt="header-logo" />
+        {Logo}
         <p>Lyan Brito</p>
       </div>
       <nav className={styles.navBar}>
