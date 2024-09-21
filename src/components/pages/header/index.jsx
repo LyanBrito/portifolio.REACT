@@ -1,6 +1,6 @@
-import Logo from "../../assets/img/header-logo.svg";
+import Logo from "../../assets/svg/header-logo";
 import styles from "./header.module.css";
-import BottomArrow from "../../assets/img/arrow-bottom";
+import BottomArrow from "../../assets/svg/bottomArrow";
 import { useState } from "react";
 
 export default function HeaderPage() {
