@@ -4,7 +4,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "Fira Code", monospace;
-  transition: ease-in 0.3s;
+  transition: ease-in 0.13s;
 }
 body {
   display: flex;
@@ -14,6 +14,7 @@ body {
   width: 100%;
 }
 .pageContainer {
+  gap: 87px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,4 +25,8 @@ body {
   --white-100: #fff;
   --gray-100: #abb2bf;
   --purple-100: #c778dd;
+}
+p {
+  color: var(--gray-100);
+  font-weight: 400;
 }

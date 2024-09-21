@@ -23,13 +23,13 @@
   align-items: center;
   gap: 8px;
 }
-p,
+.headerTitle > p,
 a {
   color: var(--gray-100);
   font-size: 16px;
   text-decoration: none;
 }
-p {
+.headerTitle > p {
   font-weight: 700;
   color: var(--white-100);
 }
@@ -48,13 +48,11 @@ a:hover {
 span {
   color: var(--purple-100);
 }
-.dropdownContainer{
+.dropdownContainer {
   display: flex;
   position: absolute;
   right: 448px;
   top: 75px;
   padding: 8px;
   border: solid 1px var(--gray-100);
-  
-
 }
