@@ -4,12 +4,12 @@
   margin: 0px;
   padding: 0px;
   font-family: "Fira Code", monospace;
-  background-color: var(--black-100);
   transition: ease-in 0.3s;
 }
 body {
   display: flex;
   flex-direction: column;
+  background-color: var(--black-100);
   align-items: center;
   width: 100%;
 }

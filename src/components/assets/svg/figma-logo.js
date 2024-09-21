@@ -1,4 +1,4 @@
-const GitHubLogo = (
+const FigmaLogo = (
   <svg
     width="32"
     height="32"
@@ -12,4 +12,4 @@ const GitHubLogo = (
     />
   </svg>
 );
-export default GitHubLogo;
+export default FigmaLogo;
