@@ -1,0 +1,60 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 1024px;
+  align-items: flex-end;
+  height: 61px;
+  /* gap: 509px; */
+  margin-bottom: 8px;
+}
+.navBar {
+  display: flex;
+  align-items: flex-end;
+  gap: 32px;
+}
+.langContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+.headerTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+p,
+a {
+  color: var(--gray-100);
+  font-size: 16px;
+  text-decoration: none;
+}
+p {
+  font-weight: 700;
+  color: var(--white-100);
+}
+.langContainer > a {
+  font-weight: 600;
+}
+.langContainer:hover {
+  color: var(--white-100);
+}
+.langContainer:hover line {
+  stroke: var(--white-100);
+}
+a:hover {
+  color: var(--white-100);
+}
+span {
+  color: var(--purple-100);
+}
+.dropdownContainer{
+  display: flex;
+  position: absolute;
+  right: 448px;
+  top: 75px;
+  padding: 8px;
+  border: solid 1px var(--gray-100);
+  
+
+}
