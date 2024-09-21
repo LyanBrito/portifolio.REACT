@@ -1,4 +1,4 @@
-const GitHubLogo = (
+const DribbleLogo = (
   <svg
     width="32"
     height="32"
@@ -14,4 +14,4 @@ const GitHubLogo = (
     />
   </svg>
 );
-export default GitHubLogo;
+export default DribbleLogo;
