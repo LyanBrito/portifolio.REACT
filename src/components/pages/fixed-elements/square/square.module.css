@@ -1,9 +1,10 @@
 .square{
-    width: 91px;
+    width: 81px;
     height: 91px;
     border: solid 1px var(--gray-100);
+    border-right: 0px;
     position: absolute;
     top: 672px;
-    right: -10px;
+    right: 0px;
 
 }

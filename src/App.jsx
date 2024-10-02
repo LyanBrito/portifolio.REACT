@@ -5,6 +5,9 @@ import SocialMedia from "./components/pages/fixed-elements/social-media";
 import HeroPage from "./components/pages/main";
 import QuotePage from "./components/pages/quote";
 import Square from "./components/pages/fixed-elements/square";
+import Projects from "./components/pages/projects";
+
+
 
 export default function App() {
   return (
@@ -14,6 +17,8 @@ export default function App() {
       <HeroPage />
       <QuotePage />
       <Square />
+      <Projects />
+
     </div>
   );
 }
