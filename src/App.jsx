@@ -6,6 +6,7 @@ import HeroPage from "./components/pages/main";
 import QuotePage from "./components/pages/quote";
 import Square from "./components/pages/fixed-elements/square";
 import Projects from "./components/pages/projects";
+import Skills from "./components/pages/skills";
 
 
 
@@ -18,7 +19,7 @@ export default function App() {
       <QuotePage />
       <Square />
       <Projects />
-
+      <Skills />
     </div>
   );
 }
