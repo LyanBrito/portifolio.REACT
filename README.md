@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Portifolio.REACT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a project bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+During a SENAI course, we were able to create this portfolio template based on [Figma Community](https://www.figma.com/design/e7kK2NoQbFYo3H3lZp33Yj/Portfolio-(Community)?node-id=0-1&node-type=canvas&t=SJlJr60p6t62LLLz-0)
+
 
 ## Available Scripts
 
