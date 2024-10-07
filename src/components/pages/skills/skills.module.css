@@ -1,0 +1,61 @@
+.line {
+  display: flex;
+  background-color: var(--purple-100);
+  width: 239px;
+  height: 1px;
+}
+h6{
+  font-size: 16px;
+
+}
+.topSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  width: 1027px;
+}
+.skillSection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.skillscontainer {
+  display: flex;
+  align-items: center;
+  gap: 59px;
+}
+.skills {
+  display: grid;
+  gap: 16px;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 180px;
+}
+.skill > h6,
+.skill > p {
+  border: 1px solid var(--gray-100);
+  padding: 8px;
+}
+.skill > h6 {
+  border-bottom: 1px solid var(--gray-100);
+}
+.skill:nth-child(4) {
+  width: 196px;
+}
+.skill:last-child {
+  grid-column-start: 3;
+  grid-row-start: 2;
+  width: 196px;
+}
+.skill:nth-child(3) {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.skill:first-child {
+  width: 184px;
+}
