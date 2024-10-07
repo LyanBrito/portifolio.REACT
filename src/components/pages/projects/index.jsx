@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <section className={styles.projectsSection}>
       <div className={styles.topSection}>
-        <div className={styles.projectsTitle}>
+        <div className={styles.sectionTitle}>
           <h1>
             <span>#</span>projects
           </h1>
