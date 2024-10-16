@@ -1,4 +1,4 @@
-.square{
+.square672{
     width: 81px;
     height: 91px;
     border: solid 1px var(--gray-100);
@@ -6,5 +6,24 @@
     position: absolute;
     top: 672px;
     right: 0px;
+
+}
+.square1160{
+    width: calc(155px - 87px);
+    height: 155px;
+    border: 1px solid var(--gray-100);
+    border-right: 0px;
+    position: absolute;
+    top: 1160px;
+    right: 0;
+}
+.square2125{
+    width: calc(115px - 47px);
+    height: 155px;
+    border: 1px solid var(--gray-100);
+    border-left: 0px;
+    position: absolute;
+    top: 2125px;
+    left: 0;
 
 }

@@ -1,0 +1,33 @@
+.aboutSection {
+  display: flex;
+  align-items: center;
+  gap: 166px;
+  flex-direction: row;
+}
+.topSection{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    width: 516px;
+}
+.line{
+    display: flex;
+    background-color: var(--purple-100);
+    width: 326px;
+    height: 1px;
+
+}
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 516px;
+
+}
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+
+}
