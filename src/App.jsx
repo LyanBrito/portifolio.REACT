@@ -12,6 +12,7 @@ import Square1160 from "./components/pages/fixed-elements/square/1160";
 import Square2125 from "./components/pages/fixed-elements/square/2125";
 import Dot932 from "./components/pages/fixed-elements/dots/932";
 import Dot2294 from "./components/pages/fixed-elements/dots/2294";
+import Contacts from "./components/pages/contacts";
 
 
 
@@ -30,6 +31,7 @@ export default function App() {
       <Projects />
       <Skills />
       <AboutMe />
+      <Contacts />
     </div>
   );
 }
