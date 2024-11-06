@@ -1,0 +1,37 @@
+.contactsContainer {
+  align-items: flex-start;
+  GAP: 45px;
+}
+.topSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  width: 317px;
+}
+.line {
+  width: 127px;
+  height: 1px;
+  background-color: var(--purple-100);
+}
+.contactsText {
+  display: flex;
+  gap: 314px;
+}
+.contactsText > p {
+  width: 505px;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border: 1px solid var(--gray-100);
+}
+.contacts > h6 {
+  padding-bottom: 8px;
+}
+.contactOption {
+  display: flex;
+  gap: 5px;
+}
