@@ -1,0 +1,44 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  padding: 32px;
+  margin-top: 58px;
+  border-top: 1px solid var(--gray-100);
+  width: 100%;
+}
+footer > section {
+  flex-direction: row;
+  gap: 567px;
+  align-items: unset;
+}
+.footerSignature {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footerName {
+  display: flex;
+  gap: 24px;
+}
+.footerTitle {
+  display: flex;
+  gap: 9px;
+}
+.footerTitle > p {
+  font-weight: 700;
+  color: var(--white-100);
+}
+.footerMedia{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.mediaContainer{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+}
