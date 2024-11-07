@@ -1,4 +1,4 @@
-import Logo from "../../assets/svg/header-logo";
+import Logo from "../../assets/svg/logo";
 import styles from "./header.module.css";
 import BottomArrow from "../../assets/svg/bottomArrow";
 import { useState } from "react";

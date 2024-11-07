@@ -13,8 +13,7 @@ import Square2125 from "./components/pages/fixed-elements/square/2125";
 import Dot932 from "./components/pages/fixed-elements/dots/932";
 import Dot2294 from "./components/pages/fixed-elements/dots/2294";
 import Contacts from "./components/pages/contacts";
-
-
+import Footer from "./components/pages/footer";
 
 export default function App() {
   return (
@@ -32,6 +31,7 @@ export default function App() {
       <Skills />
       <AboutMe />
       <Contacts />
+      <Footer />
     </div>
   );
 }
