@@ -7,7 +7,7 @@ import Project3 from "../../assets/imgs/project3.png";
 
 export default function Projects() {
   return (
-    <section className={styles.projectsSection}>
+    <section id="projects" className={styles.projectsSection}>
       <div className={styles.topSection}>
         <div className={styles.sectionTitle}>
           <h1>
@@ -19,28 +19,31 @@ export default function Projects() {
       </div>
       <div className={styles.projectsContainer}>
         <Project
-          projectTitle="ChertNodes"
-          projectDescription="Minecraft servers hosting"
-          projectLenguages="HTML, CSS"
+          projectTitle="Nexcent"
+          projectDescription="Coding dojo from Senai"
+          projectLenguages="React.js, Module.CSS"
           projectImg={Project1}
-          projectAlt={"Chert Nodes Image"}
+          projectAlt={"Nexcent Image"}
           projectButton={"Live <~>"}
+          projectHref={"https://coding-dojo-ruddy.vercel.app/"}
         />
         <Project
-          projectTitle="ProtectX"
-          projectDescription="Discord anti-crash bot"
-          projectLenguages="HTML, CSS, Phyton, Flask"
+          projectTitle="R&R Funilaria e Pintura"
+          projectDescription="Website prototype"
+          projectLenguages="HTML, CSS, JS"
           projectImg={Project2}
-          projectAlt={"ProjectX Image"}
+          projectAlt={"R&R Image"}
           projectButton={"Live <~>"}
+          projectHref={"https://rr-funilaria.vercel.app/"}
         />
         <Project
-          projectTitle="Kahoot Answers Viewer"
-          projectDescription="Get answers to your kahoot quiz"
-          projectLenguages="CSS, Express, Node.js"
+          projectTitle="Portifolio"
+          projectDescription="My first portifiolio"
+          projectLenguages="HTML, CSS, JS"
           projectImg={Project3}
-          projectAlt={"Kahoot! Image"}
+          projectAlt={"Portifolio Image"}
           projectButton={"Live <~>"}
+          projectHref={"https://portifolio-coral-five.vercel.app/"}
         />
       </div>
     </section>

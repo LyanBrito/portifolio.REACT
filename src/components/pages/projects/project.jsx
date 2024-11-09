@@ -5,7 +5,8 @@ export default function Project({
   projectDescription,
   projectAlt,
   projectLenguages,
-  projectImg, projectButton }) {
+  projectImg, projectButton,
+  projectHref }) {
   return (
     <div className={styles.project}>
       <img src={projectImg} alt={projectAlt} />
@@ -13,7 +14,7 @@ export default function Project({
       <div className={styles.projectName}>
         <h5>{projectTitle}</h5>
         <p>{projectDescription}</p>
-        <button>{projectButton}</button>
+        <a target="_blank" href={projectHref}>{projectButton}</a>
       </div>
     </div>
   );
