@@ -6,50 +6,78 @@
   width: 1027px;
   gap: 48px;
 }
+
 .topSection {
   display: flex;
   justify-content: space-between;
   width: 1027px;
 }
+
 .sectionTitle {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
 }
+
 .line {
   display: flex;
   background-color: var(--purple-100);
   width: 511px;
   height: 1px;
 }
+
 .projectsContainer {
   display: flex;
   justify-content: center;
   gap: 16px;
 }
-.project > img {
+
+.project>img {
   border: 1px solid var(--gray-100);
   border-bottom: 0px;
 }
-.projectName > h5 {
+
+.projectName>h5 {
   font-size: 24px;
   color: var(--white-100);
   font-weight: 500;
 }
+
 .project {
   display: flex;
   flex-direction: column;
 }
-.project > p {
+
+.projectName>a:hover {
+  background-color: var(--purple-100);
+} 
+.projectName>a {
+
+  padding: 8px 16px;
+  display: flex;
+  width: fit-content;
+  border-radius: 0px;
+  border: 1px solid var(--purple-100);
+  background-color: transparent;
+  color: var(--white-100);
+}
+
+.project>p {
   padding: 8px;
   border: 1px solid var(--gray-100);
   border-bottom: 0px;
 }
+
 .projectName {
   display: flex;
   flex-direction: column;
   padding: 16px;
   gap: 16px;
   border: 1px solid var(--gray-100);
+}
+
+.project>img {
+  width: 331px;
+
 }

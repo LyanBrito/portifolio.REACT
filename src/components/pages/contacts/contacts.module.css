@@ -33,5 +33,7 @@
 }
 .contactOption {
   display: flex;
+  align-items: center;
+  height: 32px;
   gap: 5px;
 }
