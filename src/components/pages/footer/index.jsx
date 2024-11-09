@@ -21,9 +21,9 @@ export default function Footer() {
         <div className={styles.footerMedia}>
           <h1>Media</h1>
           <div className={styles.mediaContainer}>
-          {GithubLogo}
-          {FigmaLogo}
-          {DiscordLogo}
+            <a target="_blank" href="https://github.com/LyanBrito">{GithubLogo}</a>
+            <a target="_blank" href="https://www.figma.com/@lyanbrito">{FigmaLogo}</a>
+            <a target="_blank" href="https://discord.gg/tMUWzxH2Qg">{DiscordLogo}</a>
           </div>
         </div>
       </section>

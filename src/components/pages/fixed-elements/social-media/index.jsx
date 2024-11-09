@@ -7,9 +7,9 @@ export default function SocialMedia() {
   return (
     <div className={styles.socialContainer}>
       <div className={styles.line}></div>
-      <a href="">{GitHubLogo}</a>
-      <a href="">{DribbleLogo}</a>
-      <a href="">{FigmaLogo}</a>
+      <a target="_blank" href="https://github.com/LyanBrito">{GitHubLogo}</a>
+      <a target="_blank" href="https://dribbble.com/lyanbrito">{DribbleLogo}</a>
+      <a target="_blank" href="https://www.figma.com/@lyanbrito">{FigmaLogo}</a>
     </div>
   );
 }
