@@ -3,7 +3,7 @@ import AboutMeImg from "../../assets/imgs/aboutMe-img.png";
 
 export default function AboutMe() {
   return (
-    <section className={styles.aboutSection}>
+    <section id="about-me" className={styles.aboutSection}>
       <div className={styles.aboutContainer}>
       <div className={styles.topSection}>
         <h1>

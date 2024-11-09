@@ -3,15 +3,15 @@ import HeroImg from "../../assets/svg/hero-img.svg";
 
 export default function HeroPage() {
   return (
-    <main className={styles.heroContainer}>
+    <main id="main" className={styles.heroContainer}>
       <section className={styles.heroText}>
         <h1>
-          Elias is a <span>web designer </span>
+          Lyan is a <span>web designer </span>
           and
           <span> front-end developer</span>
         </h1>
         <p>He crafts responsive websites where technologies meet creativity</p>
-        <button>Contact me!!</button>
+        <a href="#contacts">Contact me!!</a>
       </section>
       <section className={styles.heroImage}>
         <img src={HeroImg} alt="hero-img" />
