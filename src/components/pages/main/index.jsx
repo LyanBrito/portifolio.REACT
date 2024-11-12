@@ -14,7 +14,7 @@ export default function HeroPage() {
         <a href="#contacts">Contact me!!</a>
       </section>
       <section className={styles.heroImage}>
-        <img src={HeroImg} alt="hero-img" />
+        <img src={HeroImg} alt="man with black jacket and a gray cap" />
         <div className={styles.status}>
           <div className={styles.statusSigner}></div>
           <p>

@@ -23,7 +23,7 @@ export default function Projects() {
           projectDescription="Coding dojo from Senai"
           projectLenguages="React.js, Module.CSS"
           projectImg={Project1}
-          projectAlt={"Nexcent Image"}
+          projectAlt={"Nexcent preview"}
           projectButton={"Live <~>"}
           projectHref={"https://coding-dojo-ruddy.vercel.app/"}
         />
@@ -32,7 +32,7 @@ export default function Projects() {
           projectDescription="Website prototype"
           projectLenguages="HTML, CSS, JS"
           projectImg={Project2}
-          projectAlt={"R&R Image"}
+          projectAlt={"R&R preview"}
           projectButton={"Live <~>"}
           projectHref={"https://rr-funilaria.vercel.app/"}
         />
@@ -41,7 +41,7 @@ export default function Projects() {
           projectDescription="My first portifiolio"
           projectLenguages="HTML, CSS, JS"
           projectImg={Project3}
-          projectAlt={"Portifolio Image"}
+          projectAlt={"Portifolio preview"}
           projectButton={"Live <~>"}
           projectHref={"https://portifolio-coral-five.vercel.app/"}
         />

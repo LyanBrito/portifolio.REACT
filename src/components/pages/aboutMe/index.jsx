@@ -30,7 +30,7 @@ export default function AboutMe() {
           <button>{"Read More ->"}</button>
         </div> 
       </div>
-        <img src={AboutMeImg} alt="" />
+        <img src={AboutMeImg} alt="white man covering his face with black jacket" />
         
     </section>
   );
