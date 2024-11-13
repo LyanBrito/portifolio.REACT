@@ -6,8 +6,15 @@ import { useState } from "react";
 export default function HeaderPage() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
+  let lastScrollTop = 0;
+  window.onscroll = () => {
+    const header = document.getElementById("header");
+    header.style.top = window.scrollY > lastScrollTop ? "-80px" : "0px";
+    lastScrollTop = window.scrollY;
+  };
+
   return (
-    <div className={styles.headerContainer}>
+    <header id="header" className={styles.headerContainer}>
       <div className={styles.headerTitle}>
         {Logo}
         <p>Lyan Brito</p>
@@ -31,15 +38,13 @@ export default function HeaderPage() {
         >
           <a>EN</a>
           {BottomArrow}
+          {isDropdownOpen && (
+            <div className={styles.dropdownContainer}>
+              <a>PT</a>
+            </div>
+          )}
         </div>
       </nav>
-      {isDropdownOpen && (
-        <div className={styles.dropdownContainer}>
-          <a>PT</a>
-        </div>
-      )}
-    </div>
+    </header>
   );
 }
-
-// select e option -> dropdown nativo sla

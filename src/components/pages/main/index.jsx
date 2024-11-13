@@ -3,7 +3,7 @@ import HeroImg from "../../assets/svg/hero-img.svg";
 
 export default function HeroPage() {
   return (
-    <main id="main" className={styles.heroContainer}>
+    <main id="main">
       <section className={styles.heroText}>
         <h1>
           Lyan is a <span>web designer </span>

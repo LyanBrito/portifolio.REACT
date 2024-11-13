@@ -30,7 +30,7 @@ export default function Projects() {
         <Project
           projectTitle="R&R Funilaria e Pintura"
           projectDescription="Website prototype"
-          projectLenguages="HTML, CSS, JS"
+          projectLenguages="HTML, CSS"
           projectImg={Project2}
           projectAlt={"R&R preview"}
           projectButton={"Live <~>"}
@@ -38,7 +38,7 @@ export default function Projects() {
         />
         <Project
           projectTitle="Portifolio"
-          projectDescription="My first portifiolio"
+          projectDescription="My first portifolio"
           projectLenguages="HTML, CSS, JS"
           projectImg={Project3}
           projectAlt={"Portifolio preview"}
