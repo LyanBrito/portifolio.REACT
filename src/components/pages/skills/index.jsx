@@ -11,7 +11,7 @@ export default function Skills() {
         <div className={styles.line}></div>
       </div>
       <div className={styles.skillscontainer}>
-        <img src={SkillsImg} alt="" />
+        <img src={SkillsImg} alt="white squares, white dots and purple page logo" />
         <div className={styles.skills}>
           <div className={styles.skill}>
             <h6>Languages</h6>

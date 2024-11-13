@@ -5,7 +5,7 @@ import Dot2705 from "../fixed-elements/dots/2705";
 
 export default function Contacts() {
   return (
-    <section className={styles.contactsContainer}>
+    <section id="contacts" className={styles.contactsContainer}>
       <div className={styles.topSection}>
         <h1>
           <span>#</span>contacts
@@ -24,7 +24,7 @@ export default function Contacts() {
             !Elias#3519
           </a>
           <a href="#" className={styles.contactOption}>
-            <a href="#">{EmailIcon}</a>
+            <a href="mailto:lyanbrito613@gmail.com">{EmailIcon}</a>
             elias@elias.me
           </a>
         </div>
