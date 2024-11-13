@@ -74,10 +74,11 @@
   flex-direction: column;
   padding: 16px;
   gap: 16px;
+  width: 297px;
   border: 1px solid var(--gray-100);
 }
 
 .project>img {
-  width: 331px;
+  width: 329px;
 
 }

@@ -1,6 +1,7 @@
-.heroContainer {
+main {
   display: flex;
   gap: 18px;
+  padding-top: 80px;
 }
 .heroText > h1 {
   font-size: 32px;

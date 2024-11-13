@@ -5,6 +5,7 @@
   padding: 0px;
   font-family: "Fira Code", monospace;
   transition: ease-in 0.13s;
+  scroll-behavior: smooth;
 }
 body {
   display: flex;
