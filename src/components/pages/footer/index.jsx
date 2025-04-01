@@ -27,7 +27,7 @@ export default function Footer() {
           </div>
         </div>
       </section>
-      <p>© Copyright 2022. Made by Elias</p>
+      <p>© Copyright 2025. Made by LyanBrito</p>
     </footer>
   );
 }
