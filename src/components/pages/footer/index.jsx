@@ -14,7 +14,7 @@ export default function Footer() {
               {Logo}
               <p>Lyan Brito</p>
             </div>
-            <p>elias@elias-dev.ml</p>
+            <p>lyanbrito613@gmail.com</p>
           </div>
           <p>Web designer and front-end developer</p>
         </div>
