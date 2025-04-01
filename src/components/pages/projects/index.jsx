@@ -37,13 +37,13 @@ export default function Projects() {
           projectHref={"https://rr-funilaria.vercel.app/"}
         />
         <Project
-          projectTitle="Portifolio"
-          projectDescription="My first portifolio"
-          projectLenguages="HTML, CSS, JS"
+          projectTitle="Landwind Website"
+          projectDescription="Coding Dojo from Senai"
+          projectLenguages="HTML, Tailwind"
           projectImg={Project3}
-          projectAlt={"Portifolio preview"}
+          projectAlt={"Code Dojo preview"}
           projectButton={"Live <~>"}
-          projectHref={"https://portifolio-coral-five.vercel.app/"}
+          projectHref={"https://code-dojo-landwind-lac.vercel.app/"}
         />
       </div>
     </section>
