@@ -1,72 +1,75 @@
-# PortTest.REACT
+# 🚀 Portfolio.REACT
 
-This is a project bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-During a SENAI course, we were able to create this portfolio template based on [Figma Community](<https://www.figma.com/design/e7kK2NoQbFYo3H3lZp33Yj/Portfolio-(Community)?node-id=0-1&node-type=canvas&t=SJlJr60p6t62LLLz-0>)
-It isn't my real portifolio. The portfolio with the correct information is [Github Repository](https://github.com/LyanBrito/portifolio.HTML), [Website](https://portifolio-coral-five.vercel.app)
+Este é um template de portfólio criado durante um curso do SENAI, baseado em um design do [Figma Community.](<https://www.figma.com/design/e7kK2NoQbFYo3H3lZp33Yj/Portfolio-(Community)?node-id=0-1&node-type=canvas&t=SJlJr60p6t62LLLz-0>)
 
-## Available Scripts
+## 📁 Estrutura do Projeto
 
-In the project directory, you can run:
+Abaixo está a estrutura básica do projeto para garantir boa organização:
 
-### `npm start`
+```sh
+      src/
+      ├── assets/                     # Arquivos estáticos (imagens, fontes, etc.)
+      ├── components/                 # Componentes reutilizáveis
+      │   ├── Header/                 # Componente do cabeçalho
+      │   │   ├── index.jsx
+      │   │   ├── header.module.css
+      │   ├── Footer/
+      ├── App.jsx                     # Componente principal
+      ├── index.jsx                   # Ponto de entrada da aplicação
+```
+## 🛠️ Ferramentas Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: Biblioteca JavaScript para criação de interfaces de usuário.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- CSS Modules: Para estilização modular dos componentes.
 
-### `npm test`
+- Figma: Ferramenta de design para prototipagem.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🏗️ Instalação
 
-### `npm run build`
+Clone o repositório:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ git clone https://github.com/LyanBrito/portifolio.REACT.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Instale as dependências: Navegue até o diretório do projeto e instale as dependências com seu gerenciador de pacotes preferido:
+```sh
+ cd portifolio.REACT
+ npm install
+ # ou
+ yarn install
+ # ou
+ pnpm install
+```
+Rodando o projeto: Para iniciar o servidor de desenvolvimento:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+ npm start
+ # ou
+ yarn start
+ # ou
+ pnpm start
 
-### `npm run eject`
+```
+## ⚙️ Lista de Comandos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Comando                   | Ação                                               |
+| :------------------------ | :------------------------------------------------- |
+| `npm install`             | Instala as dependências                            |
+| `npm start  `             | Roda o projeto localmente                          |
+| `npm run build`           | Constrói a versão de produção do projeto `./dist/` |
+| `npm run eject`           | Remove a dependência do Create React App           |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌱 Contribuições
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Sinta-se à vontade para abrir uma issue ou fazer um fork e enviar pull requests para melhorias ou correções. Todas as contribuições são bem-vindas!
 
-## Learn More
+## 🔗 Links
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div>
+  <a href=""><img src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black" alt="https://react.dev"></a>
+  <a href=""><img src="https://img.shields.io/badge/CSS%20Modules-24292F.svg?style=for-the-badge&logo=CSS3&logoColor=white" alt="https://github.com/css-modules/css-modules"></a>
+  <a href=""><img src="https://img.shields.io/badge/Figma-F24E1E.svg?style=for-the-badge&logo=Figma&logoColor=white" alt="www.figma.com"></a>
+</div>
+  
+</div>
