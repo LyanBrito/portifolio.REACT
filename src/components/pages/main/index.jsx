@@ -18,7 +18,7 @@ export default function HeroPage() {
         <div className={styles.status}>
           <div className={styles.statusSigner}></div>
           <p>
-            Currently working on <b>Portfolio</b>
+            Currently working on <b>Buspoint.mobile</b>
           </p>
         </div>
       </section>
