@@ -13,9 +13,6 @@ export default function AboutMe() {
       </div>
         <div className={styles.aboutMe}>
           <p>
-            Hello, i’m Elias! 
-            <br />
-            <br />
             I'm a developer passionate about technology and always looking for new challenges. 
             Throughout my journey, I gained experience in several areas, from front-end development to
             modern frameworks and agile methodologies. Based on personal study and free courses at SENAI.
