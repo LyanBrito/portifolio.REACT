@@ -1,4 +1,4 @@
-# 🚀 Portfolio.REACT
+# 🚀 Elias-Portfolio.REACT
 
 Este é um template de portfólio criado durante um curso do SENAI, baseado em um design do [Figma Community.](<https://www.figma.com/design/e7kK2NoQbFYo3H3lZp33Yj/Portfolio-(Community)?node-id=0-1&node-type=canvas&t=SJlJr60p6t62LLLz-0>)
 
@@ -19,7 +19,7 @@ Abaixo está a estrutura básica do projeto para garantir boa organização:
 ```
 ## 🛠️ Ferramentas Utilizadas
 
-- React: Biblioteca JavaScript para criação de interfaces de usuário.
+- Create React App: Biblioteca JavaScript para criação de interfaces de usuário.
 
 - CSS Modules: Para estilização modular dos componentes.
 
